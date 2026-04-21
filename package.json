@@ -1,0 +1,11 @@
+{
+  "name": "a2z-mobile-repair",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest",
+    "framer-motion": "latest",
+    "lucide-react": "latest"
+  }
+}
