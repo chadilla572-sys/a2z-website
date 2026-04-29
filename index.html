@@ -1,30 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>A2Z Mobile Repair</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <style>
-    body {margin:0;font-family:'Inter',sans-serif;background:#f5f5f5;color:#111;}
-    .hero {background:#0a0a0a;color:#fff;text-align:center;padding:80px 20px;}
-    .hero h1 {font-size:48px;margin:0;}
-    .hero p {margin:10px 0;font-size:18px;color:#ccc;}
-    .buttons a {display:inline-block;margin:10px;padding:14px 24px;border-radius:12px;font-weight:600;text-decoration:none;}
-    .call {background:#facc15;color:#000;}
-    .text {background:#22c55e;color:#fff;}
-    .wa {background:#16a34a;color:#fff;}
-    .section {padding:60px 20px;max-width:1100px;margin:auto;}
-    .grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;}
-    .card {background:#fff;padding:25px;border-radius:20px;box-shadow:0 10px 25px rgba(0,0,0,0.08);transition:0.2s;}
-    .card:hover {transform:translateY(-5px);}
-    .dark {background:#0a0a0a;color:#fff;text-align:center;border-radius:20px;}
-    .gallery img {width:100%;border-radius:15px;height:220px;object-fit:cover;}
-    .contact {text-align:center;}
-    .footer {background:#0a0a0a;color:#fff;text-align:center;padding:20px;margin-top:40px;}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>A2Z Mobile Repair | Trailer Repair Stockton CA</title>
+
+<meta name="description" content="Professional mobile trailer repair in Stockton, CA. Brakes, tires, air systems, lights, chassis, and container repair. Call now.">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body {margin:0;font-family:'Inter',sans-serif;background:#f5f5f5;color:#111;}
+
+/* HEADER */
+.header {
+  position:sticky;top:0;background:#0a0a0a;color:#fff;
+  padding:15px 30px;display:flex;justify-content:space-between;align-items:center;
+  z-index:1000;
+}
+.header h2 {margin:0;font-size:20px;}
+.header a {color:#fff;text-decoration:none;margin-left:20px;font-size:14px;}
+
+/* HERO */
+.hero {background:#0a0a0a;color:#fff;text-align:center;padding:90px 20px;}
+.hero h1 {font-size:50px;margin:0;}
+.hero p {margin:10px 0;font-size:18px;color:#ccc;}
+
+.buttons a {
+  display:inline-block;margin:10px;padding:14px 26px;
+  border-radius:30px;font-weight:600;text-decoration:none;
+  transition:0.2s;
+}
+.buttons a:hover {opacity:0.85;}
+.call {background:#facc15;color:#000;}
+.text {background:#22c55e;color:#fff;}
+.wa {background:#16a34a;color:#fff;}
+
+/* SECTIONS */
+.section {padding:70px 20px;max-width:1100px;margin:auto;}
+.grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;}
+
+.card {
+  background:#fff;padding:25px;border-radius:20px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+  transition:0.2s;
+}
+.card:hover {transform:translateY(-6px);}
+
+/* DARK BLOCK */
+.dark {background:#0a0a0a;color:#fff;text-align:center;border-radius:20px;padding:50px;}
+
+/* GALLERY */
+.gallery img {
+  width:100%;border-radius:15px;height:220px;
+  object-fit:cover;
+}
+
+/* CONTACT */
+.contact {text-align:center;}
+
+/* MAP */
+.map iframe {
+  width:100%;height:300px;border-radius:15px;border:none;
+}
+
+/* FOOTER */
+.footer {background:#0a0a0a;color:#fff;text-align:center;padding:20px;margin-top:40px;}
+</style>
 </head>
+
 <body>
+
+<!-- HEADER -->
+<div class="header">
+  <h2>A2Z Mobile Repair</h2>
+  <div>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
 
 <!-- HERO -->
 <div class="hero">
@@ -34,14 +89,14 @@
   <p><b>Fully Registered & Insured • Mobile Service • Fleet Ready</b></p>
 
   <div class="buttons">
-    <a href="tel:+15103058165" class="call"> Call Now</a>
-    <a href="sms:+15103058165" class="text"> Text</a>
+    <a href="tel:+15103058165" class="call">Call Now</a>
+    <a href="sms:+15103058165" class="text">Text</a>
     <a href="https://wa.me/15103058165" class="wa">WhatsApp</a>
   </div>
 </div>
 
 <!-- SERVICES -->
-<div class="section">
+<div class="section" id="services">
   <h2 style="text-align:center">Our Services</h2>
   <div class="grid">
     <div class="card">Trailer Chassis & Structural Repair</div>
@@ -55,69 +110,48 @@
 
 <!-- FLEET -->
 <div class="section">
-  <div class="dark section">
+  <div class="dark">
     <h2>Fleet & Company Contracts</h2>
     <p>We work with trucking companies, fleets, and logistics providers.</p>
     <p><b>Available for long-term contracts</b></p>
   </div>
 </div>
+
 <!-- GALLERY -->
 <div class="section">
   <h2 style="text-align:center">Our Work</h2>
   <div class="grid gallery">
-    <img src="https://th.bing.com/th/id/R.40ca686a3ad25b33ba7a40e2a8ca5ca2?rik=xZsAaj6B%2fcmhkA&riu=http%3a%2f%2fwww.managedmobile.com%2fwp-content%2fuploads%2f2017%2f08%2fmanaged-mobile-commercial-truck-repair.jpg&ehk=pHSyC8zD%2faiue4q1GNCmEnpuL1ndw952%2fC700S%2bA1qs%3d&risl=&pid=ImgRaw&r=0">
-    <img src="https://www.transportservices.com/TransportServices/media/SiteMedia/Trailer%20Repair/air-system-repair-v2.jpg?h=480&w=640&mode=crop&scale=both">
-    <img src="https://www.hydraco.com/wp-content/uploads/2022/08/Custom-Fabrication-scaled.jpg">
+    <img src="https://source.unsplash.com/400x300/?truck-repair">
+    <img src="https://source.unsplash.com/400x300/?mechanic-truck">
+    <img src="https://source.unsplash.com/400x300/?trailer-repair">
   </div>
 </div>
 
-
-
-  
-  <!-- WHY US -->
-<div class="section" style="background:#0a0a0a;color:#fff;text-align:center;">
+<!-- WHY US -->
+<div class="section dark">
   <h2>Why Us?</h2>
   <p style="max-width:800px;margin:auto;">
-    A2Z Mobile Repair is committed to providing fast, reliable, and professional trailer repair services. 
-    We specialize only in trailers, which means our focus is 100% on quality workmanship and safety.
+    We provide fast, reliable, and professional trailer repair services focused on quality and safety.
   </p>
+</div>
 
-  <div style="margin-top:30px;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;">
-    
-    <div>
-      <h3>✔ Fully Registered & Insured</h3>
-      <p>We are a legitimate business trusted by trucking companies and fleet operators.</p>
-    </div>
-
-    <div>
-      <h3>✔ Mobile Service</h3>
-      <p>We come to your location to reduce downtime and keep your trailers on the road.</p>
-    </div>
-
-    <div>
-      <h3>✔ Trailer Specialists</h3>
-      <p>We only work on trailers — dry vans, flatbeds, and cargo containers.</p>
-    </div>
-
-    <div>
-      <h3>✔ Fast & Reliable</h3>
-      <p>Quick response and efficient repairs to keep your business running smoothly.</p>
-    </div>
-
-  </div>
+<!-- MAP -->
+<div class="section map">
+  <h2 style="text-align:center">Service Area</h2>
+  <iframe src="https://maps.google.com/maps?q=Stockton%20CA&t=&z=10&ie=UTF8&iwloc=&output=embed"></iframe>
 </div>
 
 <!-- CONTACT -->
-<div class="section contact">
+<div class="section contact" id="contact">
   <h2>Contact</h2>
-  <p> +1 (510) 305-8165</p>
-  <p> @a2zmobilerepair.com</p>
-  <p> Stockton, CA</p>
+  <p>📞 +1 (510) 305-8165</p>
+  <p>🌐 a2zmobilerepair.com</p>
+  <p>📍 Stockton, CA</p>
 </div>
 
 <!-- FOOTER -->
 <div class="footer">
-  © 2023 A2Z Mobile Repair. All rights reserved.
+  © 2026 A2Z Mobile Repair. All rights reserved.
 </div>
 
 </body>
